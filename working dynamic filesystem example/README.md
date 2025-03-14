@@ -3,7 +3,7 @@
 1. This example concentrates on Weka Filesystem-backed volume and its derivatives
 2. Filesystem is provisioned automatically when volume is created
 3. On filesystem, a "seed snapshot", which is basically a snapshot of the empty filesystem, is created
-4. From here, basically, a new snapshot-backed volumes may be created on same filesystem (described in [dynamic_snapshot](../dynamic_snapshot))
+4. From here, basically, a new snapshot-backed volumes may be created on same filesystem
 5. When a CSI snapshot is created from filesystem-backed volume, it is a read-only snapshot of the filesystem
 6. When a new volume is created sourced from the CSI snapshot, this is basically another snapshot of the same filesystem, 
    but this time the snapshot is writable and contains all information that is preserved in the original Weka snapshot
