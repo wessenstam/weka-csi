@@ -3,7 +3,7 @@
 This repo holds some WEKA CSI examples and a fio load k8s module so loads can be simulated.
 
 ## Install one node k3s
-curl -sfL https://get.k3s.io | sh -
+curl -sfL https://get.k3s.io | sh - <BR>
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 
 ## CSI DRIVER
