@@ -9,15 +9,15 @@ data:
     direct=1
     buffered=0
     size=10G
-    iodepth=1000
-    numjobs=100
+    iodepth=10
+    numjobs=10
     group_reporting
     refill_buffers
     rwmixread=80
     norandommap
     randrepeat=0
     percentage_random=0
-    bs=512K
+    bs=1M
     buffer_compress_percentage=50
     rw=read
     [testjob]
